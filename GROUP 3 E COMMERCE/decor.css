@@ -1,0 +1,148 @@
+header{
+    background-color: rgb(236, 14, 207);
+    padding: 70px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    text-decoration: none;
+    justify-items: center;
+    position: sticky;
+    width: 100%;
+    background-color: rgba(133, 57, 196, 0.575);
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.A img{
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+}
+footer{
+    background-color: rgb(255, 37, 255);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-right:0px ;
+    padding-right: 0px;
+}
+.A{
+    background-color: #f1f1f1;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.B img{
+    width: 200px;
+    border-radius: 10px;
+}
+.B{
+    background-color: #f1f1f1;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.CARD{
+    display: flex;
+    overflow: hidden;
+}
+button{
+    font-size: 8px;
+}
+.A button{
+    border: none;
+    background-color: rgb(252, 21, 183);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.B button{
+    border: none;
+    background-color: rgb(252, 21, 183);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.C button{
+    border: none;
+    background-color: rgb(252, 21, 183);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.D button{
+    border: none;
+    background-color: rgb(252, 21, 183);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.C img{
+    width: 100px;
+    border-radius: 10px;
+}
+.C{
+    background-color: #f1f1f1;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.D img{
+    width: 100px;
+    border-radius: 10px;
+}
+.D{
+    background-color: #f1f1f1;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.container{
+    display: flex;
+    overflow: hidden;
+}
+.animation{
+    background-size: 100%;
+     animation: move 10s linear infinite;
+     margin: 20px;
+     color: white;
+     font-size: 60px;
+     text-align: center;
+     transition: ease-in;
+     font-weight: bold;
+     box-shadow: 10px 10px 8px grey;
+     background-repeat: no-repeat;
+     height: 300px;
+     margin-top: 30px;
+}
+h1{
+    font-weight: bold;
+    color: rgb(252, 21, 183);
+    text-align: center;
+}
+@keyframes move{
+    0%{background-image: url(NAIL2.jpeg);}
+    30%{background-image: url(make.jpeg);}
+    60%{background-image: url(BODY.jpeg);}
+    100%{background-image: url(lip.jpeg);}
+}
+h4{
+    font-size: 10px;
+}
+.card{
+    display: flex;
+}
